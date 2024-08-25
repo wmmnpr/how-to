@@ -19,20 +19,28 @@ $HOME/.local/lib/wireshark/extcap>open -a Wireshark
 ## BLE client (central/master)
 For an easy BLE client, use the app BLE Hero. 
 Find, connect and subscribe to Heart Rate service's 0x2a37 characteristic as show in screenshots below
-![IMG_0025.PNG](images/IMG_0025.PNG)
-![IMG_0026.PNG](images/IMG_0026.PNG)
-![IMG_0026.PNG](images/IMG_0027.PNG)
-![IMG_0026.PNG](images/IMG_0028.PNG)
-![IMG_0026.PNG](images/IMG_0029.PNG)
-![IMG_0026.PNG](images/IMG_0030.PNG)
-![IMG_0026.PNG](images/IMG_0031.PNG)
+
+<table>
+<tr>
+<img src="images/IMG_0025.PNG" width="25%" height="25%">
+<img src="images/IMG_0025.PNG" width="25%" height="25%">
+<img src="images/IMG_0026.PNG" width="25%" height="25%">
+<img src="images/IMG_0027.PNG" width="25%" height="25%">
+</tr>
+<tr>
+<img src="images/IMG_0028.PNG" width="25%" height="25%">
+<img src="images/IMG_0029.PNG" width="25%" height="25%">
+<img src="images/IMG_0030.PNG" width="25%" height="25%">
+<img src="images/IMG_0031.PNG" width="25%" height="25%">
+</tr>
+</table>
        
 ## The peripheral in this how-to is the Polar H10 Heart Rate Monitor
 
 ## Wireshark session screenshots
 ### BLE master in c++/winrt application (Here I forget to subscribe)
-![Screenshot 2024-08-24 at 09.20.25.png](images/Screenshot%202024-08-24%20at%2009.20.25.png)
+![Screenshot 2024-08-24 at 09.20.25.png](images/Screenshot_2024-08-24_092025.png)
 
 ### BLE Hero (good working example)
 One can see notification being delivered to master at bottom of screenshot
-![Screenshot 2024-08-24 at 09.37.42.png](images/Screenshot%202024-08-24%20at%2009.37.42.png)
+![Screenshot 2024-08-24 at 09.37.42.png](images/Screenshot_2024-08-24_093742.png)
