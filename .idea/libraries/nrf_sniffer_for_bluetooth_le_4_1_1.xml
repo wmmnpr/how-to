@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="nrf_sniffer_for_bluetooth_le_4.1.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/wireshark-ble-polar/nrf_sniffer/nrf_sniffer_for_bluetooth_le_4.1.1.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

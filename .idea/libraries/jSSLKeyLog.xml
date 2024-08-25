@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jSSLKeyLog">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/wireshark-decrypt-ssl/jSSLKeyLog.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
